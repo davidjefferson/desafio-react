@@ -1,0 +1,89 @@
+.m-1 {
+    margin: 0.3rem;
+}
+
+.m-2 {
+    margin: 0.8rem;
+}
+
+.m-3 {
+    margin: 1.5rem;
+}
+
+.m-4 {
+    margin: 2rem;
+}
+
+.m-5 {
+    margin: 3rem;
+}
+
+.me-1 {
+    margin-right: 0.3rem;
+}
+
+.me-2 {
+    margin-right: 0.8rem;
+}
+
+.me-3 {
+    margin-right: 1.5rem;
+}
+
+.me-4 {
+    margin-right: 2rem;
+}
+
+.me-5 {
+    margin-right: 3rem;
+}
+
+.my-1 {
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.my-2 {
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+}
+
+.my-3 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.my-4 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.my-5 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mx-1 {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+.mx-2 {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+}
+
+.mx-3 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.mx-4 {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.mx-5 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}

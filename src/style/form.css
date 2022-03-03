@@ -1,0 +1,111 @@
+/* control */
+.control-group {
+    border: 1px solid #bbb7b7d9;
+    border-radius: 5px;
+    margin-bottom: 0.8rem;
+    position: relative;
+    font-size: 0.9rem;
+}
+
+.control-group * {
+    cursor: pointer;
+}
+
+.control-group:hover {
+    background-color: #f6f4f4;
+}
+
+.control-group>div:first-child {
+    padding: 0.4rem 0.7rem 0.5rem 0.7rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.control-group .control-list {
+    position: absolute;
+    width: 100%;
+    left: -1px;
+    top: 1.3rem;
+    padding: 0;
+    background-color: #fff;
+    z-index: 1;
+    display: none;
+    list-style: none;
+    border: 1px solid #D9D9D9;
+}
+
+.control-group .control-list li {}
+
+.control-group .control-list li a {
+    padding: 0.3rem 0.8rem;
+    display: block;
+}
+
+.control-group .control-list li a:hover {
+    background: #ff2a25;
+    color: #fff;
+}
+
+.control-group .arrow {
+    position: absolute;
+    padding: 0.2rem;
+    box-shadow: 1px -1px 0 1px #0d0d0d inset;
+    border: solid transparent;
+    border-width: 0 0 2rem 2rem;
+    transition: 0.2s;
+    transform: rotate(313deg);
+    right: 0;
+    top: 20px;
+}
+
+.control-group.open .drop-combo-list,
+.control-group.open .control-list {
+    display: block;
+}
+
+.control-group .drop-combo-list {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: none;
+}
+
+.control-group-input .control-group {
+    width: 100%;
+}
+
+.control-group-input .control-group:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.control-group-input .control-group:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-right: 0;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-primary {
+    padding: 0.7rem 1rem;
+    background: #ff2a25;
+    color: #fff;
+    border: 1px solid #ff2a25;
+    width: 100%;
+    border-radius: 0.3rem;
+}
+
+@media (max-width: 1024px) {
+    .col-button {
+        width: calc(100% - 0.8rem);
+        display: block;
+        flex: none;
+        margin: 1rem 0 0.6rem 0;
+    }
+}

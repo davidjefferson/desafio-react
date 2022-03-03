@@ -1,0 +1,28 @@
+dl {
+    overflow: auto;
+}
+dl dt, dl dd {
+    float: left;
+}
+dl dt {
+    clear: left;
+    width: 15%;
+    margin-right: 2%;
+    font-weight: bold;
+}
+dl dd {
+    width: 75%;
+    margin-left: 0;
+}
+
+
+@media (max-width: 1024px) {
+    dl dt {
+        display: none;
+    }
+
+    dl dd {
+        width: auto;
+        margin-left: 0.5rem;
+    }
+}

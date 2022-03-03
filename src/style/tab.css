@@ -1,0 +1,40 @@
+.tabs .tabs-header {
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.tabs .tabs-header a {
+    text-decoration: none;
+}
+
+.tabs .tabs-header a small {
+    font-size: 60%;
+    display: block;
+}
+
+.tabs .tabs-header a img {
+    width: 1.5rem;
+}
+
+.tabs .tabs-header .tabs-active {
+    border-bottom: 2px solid #FF2A25;
+}
+
+.tabs .tabs-header .tabs-active .tab-title {
+    color: #FF2A25;
+}
+
+.tabs .tabs-header .tabs-active img {
+    fill: #FF2A25;
+}
+
+@media (max-width: 1024px) {
+    .tabs .tabs-header {
+        padding: 0 1.5rem;
+    }
+    
+    .tabs .tabs-header li {
+        width: 100%;
+    }
+}
