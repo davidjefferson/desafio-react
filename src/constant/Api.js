@@ -1,1 +1,1 @@
-export const PATHAPI = 'https://desafioonline.webmotors.com.br/api/OnlineChallenge';
+export const PATHAPI = 'https://desafioonline.<SUAAPI>.com.br/api/OnlineChallenge';

@@ -22,7 +22,7 @@ class Home extends Component {
             versions: []
         }
     }
-    
+
     setPropety = (state, result) => {
         this.setState({
             [state]: result
@@ -35,7 +35,7 @@ class Home extends Component {
             <div className="app">
                 <div className="app-container">
                     <header>
-                        <img src={logo} width="200" alt="Logo WebMotors" />
+                        <img src={logo} width="200" alt="Logo Desafio" />
                     </header>
 
                     <section>
